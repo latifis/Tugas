@@ -8,7 +8,6 @@ public class Main {
 
         int vokal = 0;
         int konsonan = 0;
-        //Alterra Indonesia
 
         Scanner input = new Scanner(System.in);
         System.out.println("Masukkan Kalimat: ");
