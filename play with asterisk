@@ -1,0 +1,27 @@
+package com.bni.company;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan Jumlah: ");
+        int jumlah = input.nextInt();
+
+        for (int i = 1; i <= jumlah; i++){
+            for (int j = jumlah-1; j >= i; j--) {
+                System.out.print(' ');
+            }
+            for (int k = 1; k <= i; k++){
+                System.out.print('*');
+            }
+            for (int l = 1; l <= i - 1; l++){
+                System.out.print('*');
+            }
+            System.out.println();
+        }
+
+    }
+}
