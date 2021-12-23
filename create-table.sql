@@ -12,7 +12,7 @@ CREATE TABLE operators(
     update_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
 );
 
-CREATE TABLE product_description(
+CREATE TABLE product_descriptions(
     id SERIAL NOT NULL PRIMARY KEY,
     description TEXT,
     create_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
