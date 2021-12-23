@@ -36,3 +36,8 @@ INSERT INTO payment_methods (name, status) VALUES (`ewallet`, 1);
 INSERT INTO payment_methods (name, status) VALUES (`cod`, 1);
 
 
+INSERT INTO users (name, status, dob, gender) VALUES (`Adi`, 1, `2000-03-17`, `l`);
+INSERT INTO users (name, status, dob, gender) VALUES (`Budi`, 1, `2001-07-04`, `l`);
+INSERT INTO users (name, status, dob, gender) VALUES (`Citra`, 1, `1999-01-28`, `p`);
+INSERT INTO users (name, status, dob, gender) VALUES (`Danila`, 1, `1998-10-20`, `p`);
+INSERT INTO users (name, status, dob, gender) VALUES (`Edwin`, 1, `2000-02-01`, `l`);
