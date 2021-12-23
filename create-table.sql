@@ -59,7 +59,7 @@ CREATE TABLE products(
     update_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
 );
 
-CREATE TABLE transaction_detail(
+CREATE TABLE transaction_details(
     id SERIAL NOT NULL PRIMARY KEY,
     transaction_id int REFERENCES transaction(id),
     product_id int int REFERENCES products(id),
