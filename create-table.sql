@@ -29,6 +29,7 @@ CREATE TABLE payment_methods(
 
 CREATE TABLE users(
     id SERIAL NOT NULL PRIMARY KEY,
+    name varchar(255),
     status SMALLINT,
     dob DATE,
     gender char(1),
