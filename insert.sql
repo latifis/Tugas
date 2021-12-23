@@ -41,3 +41,24 @@ INSERT INTO users (name, status, dob, gender) VALUES (`Budi`, 1, `2001-07-04`, `
 INSERT INTO users (name, status, dob, gender) VALUES (`Citra`, 1, `1999-01-28`, `p`);
 INSERT INTO users (name, status, dob, gender) VALUES (`Danila`, 1, `1998-10-20`, `p`);
 INSERT INTO users (name, status, dob, gender) VALUES (`Edwin`, 1, `2000-02-01`, `l`);
+
+
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (1, 2, `Completed`, 10, 7800000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (1, 1, `Waiting`, 10, 5400000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (1, 2, `On Progress`, 10, 4300000);
+
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (2, 3, `Completed`, 10, 1000000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (2, 2, `Waiting`, 10, 700000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (2, 1, `Completed`, 10, 5600000);
+
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (3, 3, `On Progress`, 10, 600000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (3, 1, `Completed`, 10, 500000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (3, 2, `Waiting`, 10, 300000);
+
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (4, 2, `Completed`, 10, 120000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (4, 2, `Waiting`, 10, 1600000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (4, 3, `Completed`, 10, 1400000);
+
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (5, 1, `Completed`, 10, 1200000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (5, 1, `Waiting`, 10, 1400000);
+INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (5, 1, `On Progress`, 10, 1200000);
