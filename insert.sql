@@ -30,3 +30,6 @@ INSERT INTO product_descriptions (id, description) VALUES (6, `pemotong`);
 INSERT INTO product_descriptions (id, description) VALUES (7, `pemangkas`);
 INSERT INTO product_descriptions (id, description) VALUES (8, `penggabung`);
 
+INSERT INTO payment_methods (name, status) VALUES (`bank`, 1);
+INSERT INTO payment_methods (name, status) VALUES (`ewallet`, 1);
+INSERT INTO payment_methods (name, status) VALUES (`cod`, 1);
