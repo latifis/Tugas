@@ -62,3 +62,64 @@ INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pp
 INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (5, 1, `Completed`, 10, 1200000);
 INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (5, 1, `Waiting`, 10, 1400000);
 INSERT INTO transaction (user_id, payment_method_id, status, total_qty, total_pprice) VALUES (5, 1, `On Progress`, 10, 1200000);
+
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (1, 1, `Completed`, 5, 130000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (1, 2, `Waiting`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (1, 3, `On Progress`, 5, 140000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (2, 4, `Waiting`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (2, 5, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (2, 6, `Completed`, 5, 150000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (3, 7, `On Progress`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (3, 8, `Waiting`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (3, 1, `Completed`, 5, 160000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (4, 2, `Completed`, 5, 170000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (4, 3, `Waiting`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (4, 4, `Completed`, 5, 230000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (5, 5, `On Progress`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (5, 6, `Completed`, 5, 450000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (5, 7, `Waiting`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (6, 8, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (6, 1, `Completed`, 5, 560000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (6, 2, `Waiting`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (7, 3, `Completed`, 5, 320000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (7, 4, `Waiting`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (7, 5, `Completed`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (8, 6, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (8, 7, `Completed`, 5, 500000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (8, 8, `On Progress`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (9, 1, `Waiting`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (9, 2, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (9, 3, `Completed`, 5, 500000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (10, 4, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (10, 5, `On Progress`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (10, 6, `Waiting`, 5, 900000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (11, 7, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (11, 8, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (11, 1, `Waiting`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (12, 1, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (12, 2, `On Progress`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (12, 3, `Waiting`, 5, 280000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (13, 4, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (13, 5, `Completed`, 5, 340000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (13, 6, `Completed`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (14, 7, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (14, 8, `Waiting`, 5, 340000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (14, 1, `On Progress`, 5, 100000);
+
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (15, 2, `Waiting`, 5, 780000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (15, 3, `Completed`, 5, 100000);
+INSERT INTO transaction_details (transaction_id, product_id, status, qty, price) VALUES (15, 4, `Waiting`, 5, 500000);
